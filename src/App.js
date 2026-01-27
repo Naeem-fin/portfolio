@@ -16,8 +16,10 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+        {/* FIXED SIDEBAR */}
         <Sidebar />
 
+        {/* MAIN CONTENT */}
         <div className="main-area">
           <div className="content">
             <Routes>
