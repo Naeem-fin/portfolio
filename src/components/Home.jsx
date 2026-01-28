@@ -81,6 +81,10 @@ export default function Home() {
           </p>
         </div>
       </div>
+      
+        <div className="speech">
+          “The important thing is not to stop questioning.” — Albert Einstein
+        </div>
     </div>
   );
 }

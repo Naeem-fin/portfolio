@@ -7,10 +7,11 @@
 
 /* Heading with background color */
 .research-heading {
-  background-image: url("/src/images/Research.jpg"); /* research bg */
+  /* background-image: url("/src/images/Research.jpg");  */
+  background-image: url("/src/images/resubg.jpeg");
   background-color: #1e293b; /* fallback */
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
 
   padding: 70px 20px;

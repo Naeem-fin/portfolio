@@ -10,7 +10,8 @@
 .experience-heading {
   position: relative;
   overflow: hidden;
-  background-image: url("/src/images/Experience.jpg");
+  /* background-image: url("/src/images/Experience.jpg"); */ 
+  background-image: url("/src/images/expobg.jpeg");
   background-color: #1e293b;
   background-size: cover;
   background-position: center;

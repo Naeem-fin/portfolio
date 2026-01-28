@@ -149,3 +149,20 @@
     padding: 8px 12px;
   }
 }
+.speech {
+  text-align: right;               /* Align text to the right */
+  font-style: italic;              /* Italic for quote style */
+  font-size: 20px;                 /* Slightly larger font */
+  font-weight: 500;                /* Semi-bold for elegance */
+  color: #1e293b;                  /* Dark blue-ish color */
+  border-right: 4px solid #2563eb; /* Decorative vertical line on right */
+  padding: 10px 20px;              /* Padding inside the div */
+  margin: 20px 0;                  /* Spacing from other elements */
+  background-color: rgba(245, 245, 245, 0.8); /* Light transparent bg */
+  border-radius: 8px;              /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+  font-family: 'Georgia', serif;   /* Elegant serif font */
+  position: relative;
+}
+
+

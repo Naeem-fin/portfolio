@@ -8,7 +8,8 @@
 
 /* Heading with background image */
 .publications-heading {
-  background-image: url("/src/images/publication.jpg"); /* optional background */
+  /* background-image: url("/src/images/publication.jpg");  */
+  background-image: url("/src/images/pubbg.jpeg");
   background-color: #1e293b; /* fallback */
   background-size: cover;
   background-position: center;

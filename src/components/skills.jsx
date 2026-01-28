@@ -16,7 +16,7 @@ export default function Skills() {
         </p>
         <ul>
           <li><strong>Simulation & CAD:</strong> ANSYS, COMSOL, SolidWorks, AutoCAD, Simulink</li>
-          <li><strong>Programming:</strong> FORTRAN, C, Python, C++, Java</li>
+          <li><strong>Programming:</strong> FORTRAN, C</li>
           <li><strong>Data Analysis:</strong> Origin Pro, Excel</li>
           <li><strong>Numerical Tools:</strong> MATLAB</li>
           <li><strong>Others:</strong> LaTeX, Arduino, MS Office</li>

@@ -7,16 +7,16 @@
 
 /* Heading with background image */
 .skills-heading {
-  background-image: url("/src/images/skillsbg.webp"); /* replace with your image */
+  background-image: url("/src/images/skill.jpeg"); /* replace with your image */
   background-color: #1e293b; /* fallback color */
   background-size: cover;
-  background-position: center;
+  background-position: center ;
   background-repeat: no-repeat;
 
   padding: 70px 20px;
   border-radius: 10px;
-  text-align: center;
-  color: black; /* make sure text is visible on image */
+  text-align: right;
+  color: white; /* make sure text is visible on image */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 .skills-intro {

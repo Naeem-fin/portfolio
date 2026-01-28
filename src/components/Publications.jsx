@@ -10,7 +10,7 @@ export default function Publications() {
 
       {/* Journal Articles Box */}
       <div className="publications-box">
-        <h4>Journal Articles (Under Review)</h4>
+        <h4>Journal Articles</h4>
 
         <div className="paper-box">
           <strong>Optimization and Benchmarking of Fin Geometries for Enhanced Passive Cooling in Renewable Energy Systems Toward Achieving SDG 7.</strong>
@@ -18,7 +18,7 @@ export default function Publications() {
            <b>Md. Mamunur Rahman</b> , Md. Fardim Hasan Emon, Anup Karmakar, Md. Mahbubul Alam.
           </div>
           <div className="details">
-             <a 
+            <a 
                 href="https://www.sciencedirect.com/journal/energy-conversion-and-management" 
                 target="_blank" 
                 rel="noopener noreferrer"
