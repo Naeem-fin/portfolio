@@ -1,15 +1,15 @@
-/* Sidebar Base */
+/* ===== SIDEBAR BASE (DESKTOP) ===== */
 .sidebar {
   width: 260px;
   background-color: #0f172a;
   color: white;
   padding: 20px;
+
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
   overflow-y: auto;
-  transition: transform 0.3s ease;
   z-index: 1000;
 }
 
@@ -24,12 +24,11 @@
   color: #cbd5f5;
   text-decoration: none;
   border-radius: 6px;
-  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .sidebar a:hover {
-  color: white;
   background-color: #1e293b;
+  color: white;
 }
 
 .sidebar a.active {
@@ -37,41 +36,33 @@
   color: white;
 }
 
-.subtitle {
-  font-size: 14px;
-  color: #94a3b8;
-}
-
-/* Hamburger */
+/* ===== HAMBURGER ===== */
 .hamburger {
   display: none;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 16px;
+  left: 16px;
   font-size: 28px;
-  color: #0f172a;
   background: white;
-  padding: 8px 12px;
+  padding: 6px 12px;
   border-radius: 6px;
   cursor: pointer;
-  z-index: 1100;
+  z-index: 1101;
 }
 
-/* Overlay */
+/* ===== OVERLAY ===== */
 .overlay {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 900;
 }
 
-/* Responsive */
+/* ===== MOBILE ONLY ===== */
 @media (max-width: 1024px) {
   .sidebar {
     transform: translateX(-100%);
+    transition: transform 0.3s ease;
   }
 
   .sidebar.open {
@@ -80,14 +71,5 @@
 
   .hamburger {
     display: block;
-  }
-
-  .main-area {
-    margin-left: 0;
-    transition: margin-left 0.3s ease;
-  }
-
-  .main-area.shifted {
-    margin-left: 260px;
   }
 }

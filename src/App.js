@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
@@ -8,8 +8,9 @@ import Research from "./components/Research";
 import Publications from "./components/Publications";
 import Experience from "./components/Experience";
 import Design from "./components/Design";
-import Footer from "./components/Footer";
 import Skills from "./components/skills";
+import Footer from "./components/Footer";
+
 import "./App.css";
 
 function App() {

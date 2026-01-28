@@ -8,7 +8,7 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { SiOrcid } from "react-icons/si"; // ORCID icon
-
+import "./Footer.css";
 export default function Footer() {
   return (
     <footer className="footer">

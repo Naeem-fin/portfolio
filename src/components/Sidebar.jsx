@@ -5,19 +5,16 @@ import "./Sidebar.css";
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleSidebar = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <>
-      {/* Hamburger for mobile */}
-      <div className="hamburger" onClick={toggleSidebar}>
+      {/* Hamburger (mobile only) */}
+      <div className="hamburger" onClick={() => setIsOpen(true)}>
         ☰
       </div>
 
-      <div className={`sidebar ${isOpen ? "open" : ""}`}>
+      <aside className={`sidebar ${isOpen ? "open" : ""}`}>
         <h2>Md. Mamunur Rahman</h2>
+
         <nav>
           <NavLink to="/" end onClick={() => setIsOpen(false)}>Home</NavLink>
           <NavLink to="/education" onClick={() => setIsOpen(false)}>Academic Background</NavLink>
@@ -28,10 +25,10 @@ export default function Sidebar() {
           <NavLink to="/experience" onClick={() => setIsOpen(false)}>Experience</NavLink>
           <NavLink to="/about" onClick={() => setIsOpen(false)}>About Me</NavLink>
         </nav>
-      </div>
+      </aside>
 
-      {/* Overlay for mobile */}
-      {isOpen && <div className="overlay" onClick={toggleSidebar}></div>}
+      {/* Overlay */}
+      {isOpen && <div className="overlay" onClick={() => setIsOpen(false)} />}
     </>
   );
 }
